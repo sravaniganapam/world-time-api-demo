@@ -26,6 +26,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+				<username>sravanikotireddy</username>
+				<password>Miracle@123</password>
+				<workers>1</workers>
+				<workerType>Micro</workerType>
+				<environment>Sandbox</environment>
+				<muleVersion>4.2.2</muleVersion>
+				<applicationName>worldtimezoneapi-service</applicationName>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
